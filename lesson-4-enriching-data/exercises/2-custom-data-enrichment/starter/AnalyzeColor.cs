@@ -23,8 +23,8 @@ namespace Udacity.AzureAiEngineer.EnrichingData
           This is where you will configure your Spring API Key
           
         */
-        static readonly string cogServicesEndpoint = "https://mattscognitiveservice.cognitiveservices.azure.com/";
-        static readonly string cognitiveServicesKey = "b24774d2e84b49f3b6546d46cefc62c3";
+        static readonly string cogServicesEndpoint = $cogServicesEndpoint;
+        static readonly string cognitiveServicesKey = cognitiveServicesKey;
 
         #region Class used to deserialize the request
         private class InputRecord
