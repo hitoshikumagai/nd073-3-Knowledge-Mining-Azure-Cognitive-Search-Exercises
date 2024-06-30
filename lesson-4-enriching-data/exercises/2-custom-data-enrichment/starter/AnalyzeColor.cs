@@ -24,7 +24,7 @@ namespace Udacity.AzureAiEngineer.EnrichingData
           
         */
         static readonly string cogServicesEndpoint = $cogServicesEndpoint;
-        static readonly string cognitiveServicesKey = cognitiveServicesKey;
+        static readonly string cognitiveServicesKey = $cognitiveServicesKey;
 
         #region Class used to deserialize the request
         private class InputRecord
